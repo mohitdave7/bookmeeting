@@ -1,38 +1,81 @@
-.App {
+.meeting_booking {
+  max-width: 600px;
+  margin: auto;
+}
+.form_group {position: relative;margin-bottom: 50px;}
+.meeting_booking .form_data {
+  padding: 0 100px;
+}
+.form_group label {
+  display: inline-block;
+  font-size: 14px;
+  z-index: 99999;
+  background: #fff;
+  width: auto;
+  position: absolute;
+  top: -10px;
+  left: 8px;
+}
+.form_group select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form_group input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form_data h1 {
+  font-size: 22px;
+  margin: 25px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calender {
+  max-width: 675px;
+  margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calnder_option h1 {
+  font-size: 22px;
+  margin: 25px 0;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time_btn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.time_btn button {
+  width: 90px;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 10px 10px 10px;
+  color: #ccc;
+}
+.time_btn button:focus {
+  outline: none;
+}
+.book_app {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.book_app .app_btn {
+  padding: 10px 23px;
+  text-transform: uppercase;
+  background: #e02a2a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form_group{
+  display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
